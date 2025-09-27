@@ -62,6 +62,14 @@ cd lerobot
 pip install -e .
 ```
 
+**참고로 여기서 lerobot 브랜치 버전**을 바꿔주세요. 이것도 버전관련 문제인데
+
+강의 해주시는 교수님께서 바꾸는게 정신건강에 좋을 것이라고 하셨습니다..
+
+```
+git checkout v0.3.3
+```
+
 아래의 코드에서 [all] 은 실행하면 안됩니다. 하나의 시뮬레이터에 대해서만 설치를 합니다..!!
 ```
 pip install 'lerobot[all]'          # All available features
