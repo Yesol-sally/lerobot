@@ -130,3 +130,12 @@ imageio.mimsave("example.mp4", np.stack(frames), fps=25)
 
 
 <img width="1252" height="892" alt="image" src="https://github.com/user-attachments/assets/001b5cdf-7bdf-472d-a544-0a7daade81fe" />
+
+
+### 추가 정보
+
+일반적으로 시뮬레이터 학습환경 구축 시 다음과 같은 버전으로 실행한다고 합니다.
+
+```
+cuda12.4 - cudnn8.1 - python(3.10 → 3.12) - pytoch(2.6.x) - huggingface
+```
