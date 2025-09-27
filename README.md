@@ -102,7 +102,7 @@ https://github.com/huggingface/gym-aloha
 pip install gym-aloha
 ```
 
-```
+```python
 # example.py
 import imageio
 import gymnasium as gym
